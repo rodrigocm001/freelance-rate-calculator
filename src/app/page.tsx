@@ -260,6 +260,52 @@ export default function Home() {
             </div>
           </section>
 
+          <section className="mt-16">
+            <h2 className="text-3xl font-bold mb-6">
+              What you get with the toolkit
+            </h2>
+
+            <div className="grid gap-6 md:grid-cols-2">
+
+              <div className="rounded-2xl border border-white/10 bg-slate-900 p-5">
+                <h3 className="text-lg font-semibold text-white">
+                  Freelance Rate Calculator
+                </h3>
+                <p className="mt-2 text-sm text-slate-400">
+                  Interactive web calculator to estimate your sustainable freelance hourly rate.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/10 bg-slate-900 p-5">
+                <h3 className="text-lg font-semibold text-white">
+                  Google Sheets Pricing Template
+                </h3>
+                <p className="mt-2 text-sm text-slate-400">
+                  Duplicate the template instantly and customize it for your freelance business.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/10 bg-slate-900 p-5">
+                <h3 className="text-lg font-semibold text-white">
+                  Excel Pricing Template
+                </h3>
+                <p className="mt-2 text-sm text-slate-400">
+                  Fully formatted spreadsheet with automatic calculations and pricing insights.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/10 bg-slate-900 p-5">
+                <h3 className="text-lg font-semibold text-white">
+                  Freelance Pricing Guide
+                </h3>
+                <p className="mt-2 text-sm text-slate-400">
+                  A short guide explaining how to price freelance work and avoid common pricing mistakes.
+                </p>
+              </div>
+
+            </div>
+          </section>
+
       </div>
     </main>
   );

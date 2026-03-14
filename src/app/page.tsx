@@ -260,32 +260,6 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="mt-16">
-            <h2 className="text-3xl font-bold mb-6">
-              More tools for developers
-            </h2>
-
-            <div className="grid gap-6 md:grid-cols-3">
-              <ToolCard
-                title="Freelance Rate Calculator"
-                description="Calculate the hourly rate you actually need as a freelance developer."
-                link="#"
-              />
-
-              <ToolCard
-                title="Project Price Calculator"
-                description="Estimate the correct price for freelance projects."
-                link="#"
-              />
-
-              <ToolCard
-                title="SaaS MRR Calculator"
-                description="Estimate revenue growth for your SaaS product."
-                link="#"
-              />
-            </div>
-          </section>
-
       </div>
     </main>
   );
@@ -434,33 +408,3 @@ function InfoBlock({ title, text }: { title: string; text: string }) {
     </div>
   );
 }
-
-function ToolCard({
-  title,
-  description,
-  link,
-}: {
-  title: string
-  description: string
-  link: string
-}) {
-  return (
-    <a
-      href={link}
-      className="block rounded-2xl border border-white/10 bg-slate-900 p-5 hover:bg-slate-800 transition"
-    >
-      <h3 className="text-lg font-semibold text-white">
-        {title}
-      </h3>
-
-      <p className="mt-2 text-sm text-slate-400">
-        {description}
-      </p>
-
-      <span className="mt-4 inline-block text-cyan-400">
-        Open tool →
-      </span>
-    </a>
-  )
-}
-

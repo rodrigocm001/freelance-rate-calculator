@@ -80,6 +80,9 @@ export default function Home() {
               <h1 className="mt-4 max-w-3xl text-4xl font-bold tracking-tight sm:text-5xl">
                 Freelance Rate Calculator for Developers
               </h1>
+              <p className="mt-3 max-w-2xl text-sm font-medium text-cyan-300">
+                Built for freelance developers who want a fast, defensible pricing baseline.
+              </p>
               <div className="mt-6 flex gap-4">
                 <a
                   href="#"
@@ -87,11 +90,11 @@ export default function Home() {
                 >
                   Get the Pro Version - $15
                 </a>
-
                 <span className="flex items-center text-sm text-slate-400">
                   Interactive demo below
                 </span>
               </div>
+
               <p className="mt-4 max-w-2xl text-base leading-7 text-slate-300">
                 Find the hourly rate you actually need based on income goals,
                 realistic billable time, taxes, expenses and margin. Built for

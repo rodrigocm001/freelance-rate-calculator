@@ -85,7 +85,7 @@ export default function Home() {
               </p>
               <div className="mt-6 flex gap-4">
                 <a
-                  href="#"
+                  href="https://rodrigocm1.gumroad.com/l/vbhvhc"
                   className="rounded-xl bg-cyan-500 px-6 py-3 font-semibold text-black hover:bg-cyan-400 transition"
                 >
                   Get the Pro Version - $15
